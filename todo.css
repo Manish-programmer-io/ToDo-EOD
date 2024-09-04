@@ -1,0 +1,143 @@
+body{
+    background: linear-gradient(to left, rgb(60, 170, 254), rgba(48, 67, 212, 0.493));
+}
+
+table tr td{
+    vertical-align: middle;
+}
+
+td button{
+    margin: 5px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+td button i{
+    font-size: 20px;
+}
+
+/* CSS */
+
+.button-62 {
+  background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+  border: 0;
+  border-radius: 12px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+
+.button-62:not([disabled]):focus {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+.button-62:not([disabled]):hover {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+
+.modal-header{
+    background: #0d6efd;
+    color: #fff;
+}
+
+.modal-body form {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0;
+}
+
+.modal-body form .imgholder{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.imgholder .upload{
+    position: absolute;
+    bottom: 0;
+    left: 10;
+    width: 100%;
+    height: 100px;
+    background: rgba(0,0,0,0.3);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.upload i{
+    color: #fff;
+    font-size: 35px;
+}
+
+.imgholder:hover .upload{
+    display: flex;
+}
+
+.imgholder .upload input{
+    display: none;
+}
+
+.modal-body form .inputField{
+    flex-basis: 68%;
+    border-left: 5px groove blue;
+    padding-left: 20px;
+}
+
+form .inputField > div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+form .inputField > div label{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#userForm form .inputField > div label::after{
+    content: "*";
+    color: red;
+}
+
+form .inputField > div input{
+    width: 75%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 2px solid blue;
+}
+
+.modal-footer .submit{
+    font-size: 18px;
+}
+
+
+#readData form .inputField > div input{
+    color: #000;
+    font-size: 18px;
+}
